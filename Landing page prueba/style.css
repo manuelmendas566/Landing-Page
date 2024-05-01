@@ -1,0 +1,359 @@
+@import url('https://fonts.googleapis.com/css2?family=Jersey+15&display=swap');
+
+
+/* la etiqueta media se utiliza para dar un ajuste específico a un cierto dispositivo */
+@media (max-width: 576px) {
+    body{
+        background-color: black;
+    
+    }
+  }
+  
+@media (min-width: 577px) and (max-width: 992px) {
+  
+  }
+  
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Jersey 15", sans-serif;
+}
+
+body{
+    background-color: mediumaquamarine;
+
+}
+
+section{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+}
+
+header {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    padding: 40px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header .logo {
+    color: white;
+    font-size: 2em;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 7px;
+    padding: 0px 10px;
+    font-weight: 700px;
+    background-color: crimson;
+}
+header .logo:hover{
+    color: darkgreen;
+    background-color: lightgreen;
+    transition: 2s;
+}
+
+header .navbar{
+    position: relative;
+    display: flex;
+}
+
+header .navbar li{
+    list-style: none;
+    margin-left: 38px;
+    margin-right: 10px;
+    
+    
+    
+}
+
+header .navbar li a{
+    text-decoration: none;
+    font-weight: 600;
+    color: white;
+    padding: 10px;
+    transition: 0.3s;
+    background-color: crimson;
+    border-radius: 7px;
+    text-transform: uppercase;
+    
+}
+
+header .navbar li a:hover{
+    color: darkgreen;
+    background-color: lightgreen;
+    transition: 2s;
+    padding: 4px;
+}
+
+
+
+
+
+
+
+
+
+
+.contenido {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 30px;
+
+}
+
+.contenido .titulobox {
+    position: relative;
+    max-width: 600px;
+    text-align: center;
+
+}
+.contenido .titulobox h2 {
+    font-size: 50px;
+    text-transform: uppercase;
+    color: white;
+    
+
+}
+.contenido .titulobox h2 span {
+    color: blue;
+    padding: 0 10px;
+    font-weight: 400;
+    background-color: chartreuse;    
+    border-radius: 20px;
+}
+
+.contenido .titulobox a{
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    text-decoration: none;
+    font-size: 30px;
+    letter-spacing: 2px;
+    transition: 0.5s;
+}
+.contenido .titulobox a:hover{
+    transition: 1s;
+    background-color: black;
+    color: darkgreen;
+    padding: 4px;
+
+}
+
+
+
+.copyright {
+    position: absolute;
+    bottom: 0px;
+    left: 800px;
+    margin-bottom: 20px;
+    padding: 0 100px 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.copyright p{
+    text-align: center;
+    margin-left: 50px;
+    margin-right: 200px;
+    color: whitesmoke;
+}
+
+.redessociales {
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 100px 30px;
+    list-style: none;
+    margin-left: 20px;
+
+
+
+}
+
+.redessociales li{
+    font-size: 2.5em;
+    color: greenyellow;
+    transition: 1s;
+    margin-right: 10px;
+    
+    
+}
+
+.bodyindex {
+    background-image: url(img/pexels-chaikong2511-104764.jpg);
+    height: 100%; 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+   
+    
+}
+
+
+section article div b{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-top: 40px;
+    font-size: 2.5em;
+    font-family: Arial, Helvetica, sans-serif;
+    color: whitesmoke;
+    font-weight: 300;
+    
+
+}
+
+.bodyquiensoy  {
+    background-image: url(img/pexels-pixabay-325944.jpg);
+    height: 100%; 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+
+}
+
+
+.datospersonales{
+    text-align: center;
+    width: 1000px;
+    height: 300px;
+    background-color: #A04000;
+}
+
+
+
+section div fieldset {
+    padding-top: 5px; 
+    font-size: 20px;
+    
+}
+
+#titulodatospersonales {
+    font-size: 3em;
+}
+
+.bodycontacto {
+    background-image: url(img/pexels-fauxels-3183150.jpg);
+    height: 100%; 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+section article {
+    position: absolute;
+    top: 100px;
+    left: 0px;
+    width: 100%;
+    padding: 40px 100px;
+    
+    
+   
+    align-items: center;
+}
+
+section article div h1 {
+    font-size: 40px;
+    text-transform: uppercase;
+    color: aqua;
+
+}
+
+
+section article div h3 {
+    color: darkgreen;
+    padding-top: 70px;
+    font-size: 25px;
+}
+
+section article .estudios {
+position: absolute;
+right: 110px;
+top: 40px;
+height: 100%;
+}
+
+section article .estudios h3 {
+    padding-top: 70px;
+
+}
+
+.bodycv {
+    background-image: url(img/pexels-gmb-visuals-564876670-19772680.jpg);
+    height: 100%; 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    color: whitesmoke;
+}
+
+section div nav {
+    top: 130px;
+    position: absolute;
+    left: 650px;
+}
+
+section div nav h1{
+    font-size: 50px;
+    text-transform: uppercase;
+
+
+}
+
+.par {
+    width: 350px;
+    height: 350px;
+}
+
+.bbdd {
+    width: 350px;
+    height: 350px;
+}
+
+section article .trabajos h3 {
+    color: orange;
+    font-size: 35px;
+}
+
+section article .estudios h3 {
+    color: orange;
+    font-size: 35px;
+    
+}
+
+.bodyproyectos {
+    background-image: url(img/pexels-lum3n-44775-167682.jpg);
+    height: 100%; 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    color:crimson;
+    font-size: 15px;
+}
